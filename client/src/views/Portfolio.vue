@@ -1,6 +1,6 @@
 <template>
-    <div id="about">
-        This is the about page
+    <div id="portfolio">
+        This is the Portfolio Page
     </div>
 </template>
 
@@ -9,3 +9,4 @@ export default {
     
 }
 </script>
+
