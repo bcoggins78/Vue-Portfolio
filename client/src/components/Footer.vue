@@ -10,7 +10,7 @@
     >
       <v-btn
         v-for="link in links"
-        :key="link"
+        :key="link.path"
         color="white"
         flat
         round
@@ -47,7 +47,7 @@
 
 <style scoped>
 #footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
 }
