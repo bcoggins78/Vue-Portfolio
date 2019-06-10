@@ -1,7 +1,7 @@
 <template>
-  <v-dialog max-width="600px">
+  <v-dialog max-width="600px" v-model="dialog">
     
-      <v-btn flat slot="activator">Contact</v-btn>
+      <v-btn large flat slot="activator">Contact</v-btn>
     
     <v-card>
       <v-card-title>
@@ -11,3 +11,10 @@
   </v-dialog>
 </template>
 
+<script>
+export default {
+    data() {
+        dialog: false
+    }
+}
+</script>

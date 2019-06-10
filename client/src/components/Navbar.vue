@@ -18,7 +18,7 @@
       
       <v-toolbar-items class="hidden-md-and-down">
         <v-icon>contact_mail</v-icon>
-        <Popup class="mr-5" flat middle/>
+        <v-btn @click="$router.push('contact')" flat class="mr-5">Contact</v-btn>
       </v-toolbar-items>
       
       <v-toolbar-items class="hidden-md-and-down nav-item">
@@ -43,8 +43,8 @@ export default {
         { icon: 'person', text: 'About', route: '/'},
         { icon: 'folder_open', text: 'Portfolio', route: '/portfolio'},
         { icon: 'work', text: 'Resume', route: '@/assets/BCoggins Resume.pdf'}
-
-      ]
+        ],
+      dialog: false
     }
   }
 }
